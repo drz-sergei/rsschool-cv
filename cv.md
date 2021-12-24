@@ -49,5 +49,6 @@ Possess working knowledge of Adobe Photoshop & Figma.
 ### Courses:
 
 - English courses from A1QA company (A2)
+- A large number of video courses about Frontend on YouTube
 
 =============================================
