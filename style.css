@@ -1,0 +1,442 @@
+@font-face {
+  font-family: "Inter";
+  src: local("Inter Regular"), local("Inter-Regular"),
+    url("./Fonts/Inter-Regular.woff2") format("woff2"),
+    url("./Fonts/KonstantGroteskBook.woff") format("woff"),
+    url("./Fonts/KonstantGroteskBook.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Konstant Grotesk";
+  src: local("Konstant Grotesk Book"), local("Konstant-Grotesk-Book"),
+    url("./Fonts/KonstantGroteskBook.woff2") format("woff2"),
+    url("./Fonts/KonstantGroteskBook.woff") format("woff"),
+    url("./Fonts/KonstantGroteskBook.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/********************************************************/
+
+body {
+  margin: 0;
+}
+
+.main__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #262626;
+}
+
+/********************************************************/
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0 10px 0;
+}
+
+.nav-item {
+  list-style-type: none;
+}
+
+.item-link {
+  font-family: "Konstant Grotesk";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+}
+
+/********************************************************/
+
+.about-section {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container-left {
+  width: 40%;
+  padding: 30px;
+}
+
+.container-right {
+  width: 60%;
+  padding: 30px;
+}
+
+.block-wrapp {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-text {
+  font-family: "Konstant Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 56px;
+  color: #ffffff;
+}
+
+.about-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.about-container {
+  padding-right: 20px;
+  width: 50%;
+}
+
+.num-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+.skills-container {
+  padding-left: 20px;
+  width: 50%;
+}
+
+.skills-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-title {
+  font-family: "Konstant Grotesk";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.number {
+  font-family: "Konstant Grotesk";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.about-subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 25px;
+}
+
+.skills-list {
+  padding: 0;
+}
+
+.skills-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: disc;
+}
+
+.skills-title {
+  font-family: "Konstant Grotesk";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  padding-right: 20px;
+}
+
+.contact-title {
+  font-family: "Konstant Grotesk";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.contact-subtitle {
+  font-family: "Konstant Grotesk";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact-list {
+  padding: 0;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: disc;
+}
+
+/********************************************************/
+
+.projects-section {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.projects-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.projects-container {
+  padding-right: 20px;
+  width: 50%;
+}
+
+.education-container {
+  width: 50%;
+  padding-left: 20px;
+}
+
+.data-subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 10px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 35px;
+}
+
+.education-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.faculty-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 10px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.education-title {
+  font-family: "Konstant Grotesk";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.project-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+
+.projects-title {
+  font-family: "Konstant Grotesk";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.projects-list {
+  padding: 0;
+  width: 100%;
+}
+
+.projects-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: disc;
+}
+
+.project-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+/********************************************************/
+
+.language-section {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.language-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.language-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.language-level {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.code-example {
+  padding-top: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.color {
+  color: green;
+}
+
+.color2 {
+  color: red;
+}
+
+.color3 {
+  color: yellow;
+}
+
+.codestyle-container {
+  padding-right: 20px;
+  width: 50%;
+}
+
+.languages-container {
+  width: 50%;
+  padding-left: 20px;
+}
+
+/********************************************************/
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-list {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: disc;
+}
+
+.footer-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 30px 0 30px;
+}
+
+.rs-logo {
+  z-index: 10;
+  width: 120px;
+  height: 55px;
+}
