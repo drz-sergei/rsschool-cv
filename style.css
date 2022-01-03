@@ -1,9 +1,9 @@
 @font-face {
   font-family: "Inter";
   src: local("Inter Regular"), local("Inter-Regular"),
-    url("./Fonts/Inter-Regular.woff2") format("woff2"),
-    url("./Fonts/KonstantGroteskBook.woff") format("woff"),
-    url("./Fonts/KonstantGroteskBook.ttf") format("truetype");
+    url("./fonts/Inter-Regular.woff2") format("woff2"),
+    url("./fonts/KonstantGroteskBook.woff") format("woff"),
+    url("./fonts/KonstantGroteskBook.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
